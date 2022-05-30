@@ -1,0 +1,167 @@
+Rồi mình bắt đầu vào học ha, rồi chao mọi ng ha, mình tên Mẫn, sắp tới mình sẽ là ng thay a Nguyên hướng dẫn cho các bạn về các phần sau của khóa học. Đầu tiên mình sẽ tự giới thiệu xíu ha, hiện tại trên cty thì mình đang là sub-leader làm chủ yếu về backend, tuy nhiên thì trc đó thì mình cũng đã có hơn tầm 2 năm kinh nghiệm hơn làm về frontend là về angular vs reactjs , thì nếu mọi ng có thắc gì về backend hay frontend thì đều có thể hỏi mình ha. 
+
+Do mình cũng chưa biết khả năng học của lớp minh ra sao , nên trong quá trình giảng thì nếu mình có đi quá nhanh thì mọi ng nói để mình khắc phục lại ha.
+Trong lớp mình có bạn nào dự định sau khóa học muốn làm mentor ko , thì mọi ng học xong react đi ha, nếu ai có định muốn làm mentor thì có thể nói mình, mình sẽ hướng dẫn mọi ng cách đăng ký làm mentor. Thì đối với mentor thì nó sẽ có rất nhiều cái lợi ha , lợi đầu tiên chắc chắn là lương rồi ha, còn cái lợi thứ hai là mọi ng có thể học lại tất cả kiến thức lại 1 lần nữa ha. Hiện tại cybersoft sẽ tuyển mentor theo đợt nên nếu có đợt nào tuyển thì mình sẽ thông báo ha.
+
+Rồi thì bây h mình sẽ đi vào bài đầu tiên nè. Ở buổi học này thì mình sẽ tập trung đi tìm hiểu về ES6 , về những cái tính năng mà th ES6 mang lại cho chúng ta. Rồi mọi ng tạo cho mình 1 folder đi ha , mình sẽ new ra 1 cái folder mới sau đó mở nó lên = vscode. Đầu tiên mọi ng tạo cho mình 1 cái file main.js trc đi ha.
+
+Rồi ở cái bước tiếp theo thì mọi ng đừng có làm giống mình ha, cái này mình sẽ demo lại thôi. Thì thông thường có phải mọi ng muốn chạy 1 cái file js nào đó thì mọi ng sẽ tạo 1 cái file index.html sau đó nhúng cái file js mới tạo vào rồi , chạy file này đúng ko . Đó ở đây mình sẽ thử console.log ra nè. Đó mình sẽ lấy đc cái console.log này khi mình qua cái browser sau đó inspect thì mình sẽ thấy console.log ở đây. Tuy nhiên thì bây h mình sẽ học 1 cách khác ha, đó là mình sẽ chạy trực tiếp cái file main.js này dưới terminal luôn ha.
+
+Rồi mọi ng click vào cái button extension bên trái sau đó down giúp mình 1 cái extension là code runner r install về ha.
+
+Thì sau khi install xog mọi ng quay lại cái file main.js nè. Mọi ng để ý bên góc phải sẽ có 1 cái icon là tam giác như thế này.
+
+Rồi mọi ng thử ở trong cái file main.js mọi ng code gì đó đi , rồi nhấn vào thử , xem nó có console.log ra chúng ta ko.
+
+Đó thì thay vì mình chạy browser rồi tab qua tab lại thì mình sẽ code trực tiếp bên trong này lun ha. Rồi ai chưa đc thì nói để mình đợi ha.
+
+Rồi đầu tiên mình sẽ đi tìm hiểu về cách khai bao biến trong ES6 ha.
+
+Rồi ở đây mình sẽ comment lại nè . Khai báo biến (var-let-constant), ở đây mình sẽ để 1 dòng là es6 1 dòng là es6 để mọi ng dễ hình dung ha.
+
+Thì thông thường theo mọi ng học trc đây, có phải muốn khai báo ra biến mọi ng sẽ dùng var sau đó đến tến biến cuối cùng là giá trị của biến đó đ1ung ko ?
+
+Đó hiện tại mình đang khai báo 1 biến username có giá trị là cybersoft nè. Tiếp theo mình muốn tạo ra 1 biến username nữa và gán giá trị nó = Man, thì theo nó có chạy ko ? Có ai thử chưa, nếu đúng thì nó sẽ ko lỗi ha.  rồi mình thử console.log ra bên ngoài nè console.log(username). Rối thì để chạy code thì mọi ng lưu file r nhấn cái icon bên trên ha.
+
+Đó hiện tại nó vẫn log ra đc chữ Man nè , ko có lỗi gì hết ha. Mọi ng thấy là hiện tại nó đang log ra dòng 2 đúng ko , còn đối vs dòng số 1 thì nó đc dòng số 2 cập nhật lại giá trị rồi ha. Đó vì vậy khi mình log ra thì nó sẽ chạy từ trên xuống dưới , dòng nào cuối cùng thì nó sẽ ăn đc dòng đó. Rồi thì đó là cách khai báo biến thông thường của es5 ha, rồi bây h tạm thời mình sẽ xóa 2 đoạn code này đi ha mình giữ lại 1 cái username đầu tiên thôi. Rồi ở trên cái biến username mình thử console.log ra chính cái username đó. Theo mọi ng thì ở đây nó sẽ ra giá trị gì , mọi ng đoán thử đi ha. 
+
+Ở đây mình đang dự đoán là nó sẽ có 3 giá trị , 1 là null 2 là undefined 3 là lỗi ha. Cái hello cybersoft thì chắc chắn là ko ra đc rồi ha, tại lúc nãy mình có nói r ha, cái đoạn code của chúng ta sẽ chạy từ trên xuống dưới vì vậy ở dưới mình khai báo mà ở trên mình đã log ra rồi, thì nó chỉ có thể nằm ở 3 giá trị là null , undefined hoặc lỗi thôi ha.
+
+Rồi bây h mình run code thử nè,
+kết quả cuối cùng là undefined  ha. Thì mọi ng thấy hiện tại mình đang có đoạn code là console.log(username) và var username đúng ko. Thì đó là mắt thường chúng ta thấy v thôi, Tuy nhiên khi trình duyệt biên dịch code js thì nó sẽ ko hiểu v đâu ha. Mình sẽ tạo ra tiếp 1 comment là biên dịch JS nè, thì khi mọi ng khai báo thế này 
+console.log(username); 
+
+var username = "Hello Cybersoft";
+
+thì th trình duyệt nó sẽ tự động đẩy cái biến username này lên đầu nè; tuy nhiên ở đây nó sẽ ko có giá trị gì hết ha, tiếp đến mới đến console.log username , cuối cùng là gán cái username đó = 1 cái biến khác. Đó thì đó là lý do mà khi mọi ng log ra nó có giá trị là undefined là do trên nó đang khai báo 1 biến username tuy nhiên vẫn chưa gắn giá trị gì hết , nên nó sẽ ra undefined ha.
+
+Thì cách biên dịch này sẽ gọi chung là cơ chế hoisting, tức là nó sẽ đưa tất cả giá trị mà mình khai báo = var lên đầu dòng, mặc dù mình chưa khai báo biến đó tuy nhiên mình vẫn sử dụng đc biến đ1o , thì nó sẽ gây ra cho chúng ta rất là khó trong việc debug ha, đó đc ko.
+
+Thì đối vs cái hoisting này , thì hầu như phỏng vấn intern hay fresher nó rất thích hỏi câu này ha. Mọi ng note lại đi ha.
+
+Thì ở th es5 nó sẽ bị dính cái cơ chế hoisting này, tui nhiên khi đến es6 nó sẽ có 1 số cách tạo biến khác để giải quyết cái vấn đề hoisting này ha.
+
+Rồi bây h mình sẽ bắt đầu đi đến ES6 nè. Tạm thời mình sẽ comment những đoạn code này lại ha.
+
+Rồi đến với ES6 nó sẽ cho chúng ta 1 cách khai báo khác đó là let và constant.
+Rồi thì ở đây mình cũng sẽ khai báo ra 1 cái biến là let username có giá trị là Man Ng đi ha, thì đây là cách khai bao biến của th ES6 ,  ES5 thì mình chỉ có duy nhất là thằng var thôi. Rồi thì bây h mình sẽ thử log cái ra biến username . Đó thì nó vẫn log ra bthg cho chúng ta có giá trị là Man Ng nè. Rồi thì ở đây mình đặt ra 1 câu hỏi nè, là thằng let vs var này khác gì nhau , 
+
+Thì theo như những gì mà mình làm ở ES5. Là mình tạo ra 1 cái biến username và log cái username ở trên cái biến đó , thì ở đây mình sẽ làm tương tự vs th ES6. Mình sẽ thử log cái username ra . Rồi thì theo mọi ng nghĩ , cái giá trị mà nó log ra cho chúng ta là gì.
+
+Ở es5 là nó log ra cho chúng ta undefined r nè, thì ở ES6 mình sẽ thử log ra ha.
+
+Đó thì nó sẽ ko ra giá trị undefined như ở th ES5 mà nó sẽ quăng ra cho chúng ta 1 cái lỗi là , ko thể access vào cái biến username trc khi nó đc khởi tạo.
+
+Đó thì ở đây nó đang bắt chúng ta phải tạo ra cái biến username trc, rồi mới đc sử dụng. Đó thì mọi ng thấy nó đã giải quyết đc cái vấn đề hoisting đúng ko , tức là nó tránh đc cái việc mà nó tự động khai bao biến khi chúng ta chưa đc định nghĩa của th hoisting r nè.
+
+Thì nãy mình chỉ nói là nó giải quyết đc cái vấn đế của hositing th đúng ko, chứ mình ko có nói là nó ko bị dính hoisting ha. Thức chất thì cái th let này nó vẫn bị hositing ha tức là ở trên console.log nó vẫn khai báo 1 cái biến là let username nè, tuy nhiên thì ở cơ chế th let thì nó sẽ tự động đưa cái biến let này vào 1 cái vùng nhớ chết. Tức là nó vẫn khai báo tuy nhiên thì mình sẽ ko sử dụng đc cái biến này, nó chỉ sử dụng đc khi nó đc khởi tạo đúng cách thôi ha, tức là mình phải gán cái biến này = "Man Ng" nè thì nó mới thoát khỏi cái vùng nhớ chết đó ha.
+
+Rồi thì đó là cơ chế hoisting của th let. Thì đây là một câu hỏi gài khi đi pv ngta sẽ rất hay hỏi ha, là hoisting là gì , và th let vs constant có bị dịnh hoisting ko ? Đó thì mọi ng lưu ý điều này ha.
+
+Thì ngoài việc giải quyết hoisting của th ES5 thì nó còn có 1 đặc điểm nữa. Đó là khi mà mà mọi ng đã khai báo 1 cái biến là let username r , thì trong cái file js này, mọi ng ko thể khai báo 1 cái biến let username nào khác ha.
+
+Ví dụ như ở đây , mình sẽ tiếp tục khai báo tiếp 1 cái biến let username trong file main.js này thử ha.
+
+
+Đó thì mọi ng thấy ha, nó đang kêu là cái biến username này đã khởi tạo trc đó rồi thì mình sẽ ko thể khởi tạo lại ha. Thì đó là cái đặc điểm tiếp theo của th let này, là khi sử dụng let mình chỉ đc khai báo 1 lần duy nhất thôi. Nó khác vs es5 là mình có thể khai bao đi khai báo lại rất là nhìu lần. Do cái tính dễ dãi của th ES5 sẽ gây ra rất nhìu bug mà đôi lúc mà mình cũng ko biết cách fix lun , vì vậy cái th ES6 này mới ra đời để ràng buộc thêm cách khai báo biến ha.
+
+Thì mọi ng muốn cập nhật lại giá trị cho cái biên username thì mọi ng chỉ cần gán cái username này = 1 giá trị khác thôi ha, chứ mình ko đc khai báo tiếp 1 cái từ khóa là let đâu ha.
+
+Rồi thì đó là 1 số khai niệm cũng như định nghĩa của th let , mình sẽ tóm tắt lại ha.
+
+// => giải quyết đc vấn đề về hositing
+// => không đc khai báo lại 1 biến đã khai báo trc đó rồi
+// => có thế gán giá trị đã khai báo trc đó = 1 giá trị mới
+
+Tiếp đến thì mình sẽ đi nói về th constants , 
+Thì ở thằng constants này cũng sẽ đc sử dụng để khai báo 1 cái biến nào đó tương tự như var vs let ha; ở đây mình sẽ khai báo cho nó 1 cái biến là fullName có giá trị là cybersoft nè. Rồi thì ở thằng constants nó sẽ có 1 số cái có đặc điểm giống vs th let ha. Đầu tiên là
+
+
+// => giải quyết đc vấn đề về hositing
+// => không đc khai báo lại 1 biến đã khai báo trc đó rồi
+
+Tuy nhiển ở th constants này nó sẽ có 1 điểm khác là khi mình khai báo 1 cái biến constant là fullName = cybersoft rồi, thì mình ko thể gán cái biến fullName này lại = 1 giá trị khác ha. ví dụ như ở đây mình thử gán cái biến fullName này = 1 giá trị khác nè. Mình console.log thử cái fullName ra ha.
+
+Đó thì ở đây nó sẽ báo lỗi nè , tức là mình ko thể assign cái biến constant này = 1 giá trị khác. Tuy nhiên khi mình xóa cái gán giá trị này đi thì nó sẽ chạy bthg ha. Đó thì đây là cái đặc điểm của th constants ha. Mình sẽ note thêm lại ha.
+=> không gán giá trị khi đã khai báo biến constannt trước đó
+
+Tiếp theo là ở cái biến constants nó sẽ thường đc sử dụng để khai báo 1 cái hằng số , thì mọi ng trong lớp mình có biết số pi trong toán học ko, thì đó là 1 hằng số ha.
+
+Tiếp theo mình sẽ làm 1 cái ví dụ để mọi ng hiểu rõ hơn về let vs constants này. Ở đây mình sẽ tạo 1 cái hàm là demoVariable đi ha.
+
+Ở trong cái hàm này thì mình sẽ dụng cái cách của ES5 trước đi ha. là mình sẽ khai báo biến var là total = 0;
+
+cuối cùng mình sẽ return cái biến total này ra bên ngoài. Thì theo mọi ng thì trong trường hợp này, nếu mà chuyển qua ES6 thì mình sẽ sử dụng let hay constant để thay thế th var này.
+
+Thì câu trả lời ở đây là constant; Thì mọi ng thấy ở đây nè, khi mình tạo ra 1 cái biến total sau đó mình return trực tiếp cái biến này lun.
+
+Thì có phải nó đang dính đến cái khái niệm mà mình đã note ở trên đây đúng ko là nó sẽ thường đc sử dụng để khai báo 1 giá trị mặc định ko thay đổi. Thì mọi ng thấy ở đây có phải là cái biến total nó sẽ ko đc gán bởi 1 giá trị nào khác tức là nó sẽ ko thay đổi , vì vậy ở đúng ý nghĩa thì mình sẽ sử dụng constants. Ở đây mình ko thích sử dụng constants mà mình thích sử dụng let đc ko ? Thì vẫn đc ha, tuy nhiên nó sẽ ko đúng cái ý nghĩa khi khai báo biến ha. Cái let này mình chỉ khai báo khi mình muốn gán cái total này = 1 giá trị nào khác thôi ha. Trong trường hợp mà mình k gán giá trị thì mình sẽ sử dụng constants.
+
+Đó mọi ng ok chỗ này chưa.
+
+Tiếp theo mình sẽ đi đến phạm vi khai báo của 1 biến ha.
+
+Đối vs phạm vi khai báo biến thì mình sẽ có 2 cái scope chính, đó là global scope và local scope
+
+Đầu tiên mình sẽ nói về global scope ha, thì đầu tiên mình sẽ khai báo 1 cái biến là const globalScope = "Global Scope" thì mọi ng thấy cái biến này nó đang nằm ngoài cùng, thì ở đây nó sẽ đc hiểu là cái biến này đang ở cái đc khởi tạo ở phạm vi globalScope.
+
+Tiếp đến là local scope ha, ở local scope thì chúng ta sẽ có 3 loại chính đó là function scope , block scope và cuối cùng là lexical scope.
+
+Thì để demo cái function scope thì đầu tiên mình sẽ tạo ra 1 cái function là main nè, trong function này mình sẽ tạo ra 1 cái biến là var var functionScope, ở bên ngoài thì mình sẽ thử console.log cái function scope ra ha. Thì theo mọi ng thì ở đây nó sẽ log ra cái gì 
+
+Nếu đúng thì nó sẽ quăng ra lỗi ha. Lý do là cái biên này nó đang nằm trong 1 cái function , thì chỉ trong function nó sử dụng đc thôi ha, bên ngoài muốn sử dụng cái biến đó thì nó sẽ bị lỗi liền ha.
+
+Đó thì đây là khai niệm của function scope , 1 biến mà khai báo trong 1 function thì chỉ trong những thứ trong function đó mới dùng đc , bên ngoài sẽ ko dùng đc ha.
+
+Tiếp theo là mình sẽ đi đến block scope nè.
+Ở đây mọi ng cứ code giống mình trc đi ha , rồi xíu nữa mình sẽ giải thích sau ha.
+
+Ở đây sau khi nó chạy cái hàm main1 xong thì theo mọi ng cái console.log ở dòng 60 nó sẽ log ra gì và cái console.log ở dòng 63 nó sẽ log ra gì. 
+
+Mình bắt đầu ở dòng 60 đi ha, bạn nào có kết quả gì ko .
+
+Rồi bây h mình sẽ log thử ra ha.Đó mọi ng thấy là ở dòng 60 nó log ra 20 đúng ko , ở dòng 63 nó log ra 10 nè;
+
+Thì cái if ở đây nó sẽ là 1 cái block scope , nó sẽ có khải niệm giống function scope tức là những biến khai báo trong scope này thì ở những phạm vị scope sẽ ko dùng đc. Rồi thì đó là block scope 
+
+Rồi thì hiện tại mình đang dùng cosnt nè, bây h mình sẽ thử đổi lại var xem sao ha. Đó mọi ng thấy là khi mình dùng const thì nó hoạt động bthg, tuy nhiên khi dùng var thì nó gán lại giá trị cho th x = 10 nè, đo là do cơ chế hositing của th var ha.
+
+Thì ở đây mình sẽ đưa ra tòm tắt nhứ thế này.
+// => block scope chỉ hiệu nghiệm với let và const , var sẽ ko hoạt động
+
+. Cuối cùng mình sẽ nói về khái niệm của lexical scope nè .
+
+Ở đây mình sẽ tạo ra hàm main2 nè torng main2 thì mình có main3 , thì ở đây cái lexical scope của main3 function đang là main2 function scoep. Đó đc ko. mọi ng hình dung đc k. Lexical scope hiểu đơn giản là một biến được khai báo bên ngoài một hàm,
+
+
+
+
+thì đối vs th constant này nó có sẽ có khai niệm y chang th let lun ha, tuy nhiên thì nó sẽ 
+
+
+
+
+
+
+
+Rồi thì tiếp theo mình sẽ đi demo tiếp sự khác nhau giữa let và var ha. Ở đây mình sẽ tạo ra 1 cái function là main nè, tên functino thì mọi ng đặt gì cũng đc ha, ở đây mình sẽ đặt là main. Thì đầu tiên mình sẽ đi đến cách khai báo biến bên trong function cảu ES5 trc ha.
+
+Trong functino này mình sẽ tạo ra 1 cái biến là var count = 5 nè; Tiếp theo mình sẽ tạo ra 1 cái câu lệnh điều kiện nào đó ha. Ở đây mình sẽ cho nó if(true) , tức là mình muốn nó sẽ luôn luôn chạy vào bên trong cái if này. Rồi thì trong đây mình sẽ tạo 1 cái biến var count = 20;
+
+Tiếp theo mình sẽ thử log ra cái bine61 count bên trong câu điều kiện if ha. Rồi sau đó ở cuối function main mình cũng thử log ra cái biến count ha.
+
+Thì mọi ng khoan lưu file lại ha, theo mọi ng đoán đi ha, thì cái log ở dòng 17 nó sẽ log ra số mấy, mọi ng thử dùng cái kiến thức đã học tr đó đoán thử đi ha. 
+
+Rồi mình sẽ thử log ra nè. thì để mà log ra đc những giá trị bên trong hàm main thì mọi ng phải gọi cái hàm main() ra bên ngoài thì nó mới chạy đc đúng k. Rồi thì ở đây mình sẽ bắt đầu gọi nè . Bên dưới function main mình sẽ gọi ra cái hàm main()
+
+Đó mọi ng thấy là nó đang log ra cho chúng ta cả 2 giá trị là 20 ha. Thì ở cái dòng 17 là ko có gì để nói r ha, cái này chắc chắn phải là 20 rồi. Do mình mới khai báo biến count r log trực tiếp lun thì giá trị nó chắn chắn là 20 r ha.
+
+Rồi mình sẽ đi từ trên xuống ha, đầu tiên mình khai báo cái biên var count = 5; thì nó sẽ có giá trị mặc định là 5 ha. tiếp theo nó sẽ xử lý cái if này , mình đang để nó = true , tức là nó sẽ lun lun đi vào đc if này ha. Rồi trong cái if này mình đang gán lại giá trị của biến count là 20; Rồi sau đó nó là lgo ra biến count = 20; Đó thì đây là cái dòng log đầu tiên ha. Tiếp đến nó chạy xog cái if này thì nó sẽ xuông log tiếp cái biến count ra. Thì cái biến count của dòng 20 mình cũng đang log ra là 20 nè. Lý do là ở  trong cái hàm if là mình đã cập nhật lại cái biến count = 20 rồi. Vì vậy khi xuống cái dòng 20 nè, nó sẽ có biến count là 20 thay vì = 5 ha.
+
+Thì ở đây mình sẽ gọi chung là phạm vi khai báo của biến ha,  trong cái câu lệnh điều kiện if mình gọi là block scope, tiếp đến là cái phạm vi khai báo biến của cái function main này gọi là functino scope.
+
+Thì ví dụ như ở đây mình sẽ log ra cái biến count đi , thì theo mọi ng nghĩ ở đây nó có hiểu cái biến count đó ko ?
+
+Thì câu trả lời ở đây là ko ha, nó sẽ nói nè là cái biến count này chưa đc định nghĩa . Vì vậy nó sẽ quăng ra cái lỗi cho chúng ta nè.
+
+Thì lúc trc chắc mọi ng cũng đã học rồi ha, khi khai báo 1 cái biến trong hàm thì bên ngoài mình sẽ ko sử dụng đc cái biến đó ha. Trong truong hợp này mình đang khai báo biến count là 5 nè, bên ngoài mình đang cố tình gọi cái biến đó ra vì vậy nó sẽ quăng ra lỗi ha. Thì đây là cái khái niệm của function scope . Tức là ở bên ngoài mình sẽ ko thể gọi 1 cái biến nòa đó bên trong 1 function đc .
